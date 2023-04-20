@@ -1,0 +1,22 @@
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+#include<stdio.h>
+/*include<stdio.h is a  header file */
+
+
+int main()
+
+{
+
+printf(" Hello my name is Hemant Singh.This is my first program, and i had started to learn the coding on date 24082021 and now  writing this code on 25/08/2021.");
+
+return 0;
+
+}
+
+/* 
+for  more details about this program please see next program
+
+*/ 

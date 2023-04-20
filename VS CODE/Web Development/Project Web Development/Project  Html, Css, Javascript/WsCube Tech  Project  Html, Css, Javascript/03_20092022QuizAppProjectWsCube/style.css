@@ -1,0 +1,69 @@
+
+
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    background-color: cyan;
+}
+
+.main
+{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#box
+{
+    width: 40%;
+    height: 500px;
+    box-shadow: 0px 0px 5px grey;
+    background-color: white;
+    border-radius: 5px;
+    padding:50px;
+}
+ 
+h2
+{
+    text-align : center;
+    margin-bottom:30px;
+}
+
+.row
+{
+    width:100%;
+    /* margin:1rem; */
+    display:flex;
+    font-weight: bold;
+    /* padding:10px; */
+}
+
+label , input 
+{
+    padding :10px;
+    margin :5px;
+}
+
+
+
+#btn
+{
+    width:100%;
+    height: 50px;
+    background-color: rgb(40, 26, 235);
+    font-weight: bold;
+    font-size:20px;
+    color:rgb(238, 255, 7);
+    border:none;
+    border-radius: 5px;;
+    margin-top: 20px;
+    /* margin: auto ; */
+}

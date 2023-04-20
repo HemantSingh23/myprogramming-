@@ -1,0 +1,162 @@
+
+body
+{
+    background-color:antiquewhite;
+}
+
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+.brand
+{
+    display: flex;
+    align-items: center;
+    font-size: 1.3rem;
+    
+}
+
+.brand img
+{
+    display: flex;
+    height: 50px;
+    width: 10opx;
+    margin-top:4px;
+    padding-right: 10px;
+
+}
+
+
+nav ul
+{
+    display: flex;
+    list-style: none;
+    background-color: black;
+    color: white;
+    height: 80px;
+    align-items: center;
+
+}
+
+nav ul li
+{
+    padding: 10px;
+
+}
+
+.container
+{
+    min-height:70vh;
+    background-color: black;
+    color: white;
+    display: flex; 
+    margin: 20px auto;
+    width: 80%;
+    border-radius:12px;
+    justify-content: center;
+    padding-top:20px;
+    background: url(backgroundSpotify_CWH.jpg);
+    /* background-repeat: no-repeat; */
+    background-size: auto;
+}
+
+h1
+{
+    text-align: center;
+}
+
+.bottom
+{
+    position: sticky;
+    background-color: black;
+    height: 80px;
+    display: flex ;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+}
+
+#myProgressBar
+{
+    width: 100vw;
+    cursor: pointer;
+    
+    /* align-items: center; */
+    /* background-color: green; */
+}
+
+.icons i
+{
+    cursor: pointer;
+}
+
+.icons
+{    
+    margin-top:12px ;
+
+}
+
+
+
+.allsongitem
+{
+    /* justify-items: flex-start; */
+    margin-top:50px;
+    /* position: absolute;
+    left: 120px; */
+}
+
+
+.songitem
+{
+    
+    height: 40px;
+    display: flex;
+    background-color: white;
+    width: 120%;
+    color: black;
+    margin:12px 0;
+    justify-content:space-between;
+    align-items:center;
+    border-radius: 10px;
+    
+
+}
+
+.songitem img
+{
+    
+    width: 35px;
+    border-radius: 30px;
+    margin: 0px 23px ;
+} 
+
+.timestamp
+{
+    padding: 20px;
+    /* margin-left: 20px; */
+}
+
+
+.timestamp i
+{
+    padding: 20px;
+    cursor: pointer;
+}
+
+.songinfo
+{
+    position: absolute;
+    left: 10vw;
+}
+
+.songinfo img
+{
+    opacity:0 ;
+    transition: opacity 0.3s ease-in;
+}
+
+

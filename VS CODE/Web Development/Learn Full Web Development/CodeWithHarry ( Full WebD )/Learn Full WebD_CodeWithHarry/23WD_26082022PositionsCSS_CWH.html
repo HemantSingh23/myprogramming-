@@ -1,0 +1,76 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Positions</title>
+</head>
+
+<style>
+    .container
+    {
+        border: 2px solid black;
+        background-color: khaki; 
+
+        
+        height: 5000px;
+    }
+    
+    .box 
+    {
+        border: 2px solid black; 
+        width: 150px;
+        height:150px;
+        margin:2px;
+    
+        display : inline-block; 
+    }
+    
+    #box3
+    {
+        
+        /* Absolute = means relative to its first parent and doesn't leave a gap  */
+        /* position: absolute;
+        top:34px;
+        left:34px; */
+
+        /* Relative = means relative to its normal position and leave a gap  */
+        position: relative;
+        top:34px;
+        left:34px;
+
+        /* Fixed = means fixed at the position where we fixed it either wer scroll or not  */
+        /* position: Fixed;
+        top:34px;
+        left:34px; */
+
+        /* Sticky   */
+        /* position: sticky; 
+        top:300px; */
+        
+    }
+
+
+</style>
+
+
+<body>
+    <div class = "container">
+
+        
+        <div class="box" id="box1">1</div>
+        <div class="box" id="box2">2</div>
+        <div class="box" id="box3">3</div> 
+        <div class="box" id="box4">4</div>
+        
+    </div>
+</body>
+
+
+
+</html>

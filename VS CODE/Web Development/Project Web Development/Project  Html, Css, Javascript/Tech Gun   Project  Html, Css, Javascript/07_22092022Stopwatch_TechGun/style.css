@@ -1,0 +1,65 @@
+
+
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    background-color: rgb(48, 68, 90);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+}
+
+.container
+{
+    color:white;
+}
+
+.digit
+{
+    font-size: 100px;
+    font-weight: bold;
+}
+
+.txt
+{
+    font-size:40px;
+    font-weight: bold;
+}
+
+.btnContainer
+{
+    text-align: center;
+    margin-top: 40px;
+}
+
+.btn
+{
+    padding:7px 25px;
+    font-size: 60px;
+    margin:0px 10px;
+    color:white;
+    border: 0px;
+    cursor: pointer;
+
+}
+
+#start
+{
+    background-color:rgb(27, 163, 109) ;
+}
+
+#stop
+{
+    background-color:rgb(39, 143, 143) ;
+}
+
+#reset
+{
+    background-color:rgb(197, 51, 51) ;
+}

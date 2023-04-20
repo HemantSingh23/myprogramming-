@@ -1,0 +1,39 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Tutorial</title>
+
+    <style>
+    p {
+        color: rgb(196, 26, 26) !important;
+        background-color: rgb(46, 139, 71);
+    }
+    </style>
+    <!-- The above style is a internal CSS -->
+
+    <!-- it is an external CSS-->
+    <link rel="stylesheet" href="12WD1_15052022TypesofCSS_CWH.css" />
+
+    <!-- In internal CSS and external CSS which is written in the last have more order-->
+  </head>
+
+  <body>
+    <h3>This is CSS tutorial</h3>
+    <p>
+      This tutorial will teach me everything what I need to know about HTML/CSS
+    </p>
+    <!-- here Internal CSS work beacuse there is no inline CSS  that's why it's color is purple -->
+
+    <p style="color: red; background-color: yellow">
+      This is Inline CSS but it is not a best way
+    </p>
+    <!-- In the above line inline CSS have more importance than INTERNAL CSS
+    because Internal CSS have purple color and Inline CSS have red color still red color 
+    as well as background-color is yello in the website-->
+  </body>
+</html>

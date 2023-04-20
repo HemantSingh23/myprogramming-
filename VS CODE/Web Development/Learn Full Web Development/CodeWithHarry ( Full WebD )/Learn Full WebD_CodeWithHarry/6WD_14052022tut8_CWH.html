@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+
+
+<body>
+    <h2>This is the HTML Forms tutorial</h2>
+    <form action="backend.php">
+        <label for="name">Name</label>
+        <div>
+            <input type="text" name="myName" id="name">
+        </div>
+        <br>
+
+        <label for="role">Role</label>
+        <div>
+            <input type="text" name="myRoll" id="role">
+        </div>
+        <br>
+
+        <label for="EMAIL">Email</label>
+        <div>
+            <input type="email" name="myEmail" id="EMAIL">
+        </div>
+        <br>
+
+        <label for="DATE">Date</label>
+        <div>
+            <input type="Number" name="myDate" id="DATE">
+        </div>
+        <br>
+
+        <label for="bonus">Bonus</label>
+        <div>
+            <input type="Number" name="myBonus" id="bonus">
+        </div>
+        <br>
+
+        <label for="eligibility">Are you eligible?</label>
+        <div>
+            <input type="checkbox" name="myEligibility" checked id="eligibility">
+        </div>
+
+        <br>
+        <div>
+            Gender: Male <input type="radio" name="myGender"> Female <input type="radio" name="myGender">
+            other <input type="radio" name="myGender">
+        </div>
+        <br>
+        <div>
+            Write about yourself: <br><textarea name="myText" cols="20" rows="5"></textarea>
+        </div>
+        <br>
+        <div>
+            <lable for="car">Car</lable>
+            <select name="myCar" id="car">
+                <option value="Tata">Swift</option>
+                <option value="Mahindra" selected>Thar</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <input type="submit" value="Submit Now">
+        </div>
+        <br>
+        <div>
+            <input type="Reset" value="Reset Now">
+        </div>
+    </form>
+</body>
+
+
+</html>

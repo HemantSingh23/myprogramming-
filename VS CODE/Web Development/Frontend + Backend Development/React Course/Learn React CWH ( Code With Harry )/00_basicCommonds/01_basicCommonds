@@ -1,0 +1,108 @@
+
+
+
+
+///////////           Some commands of  Command Prompt        ///////////
+///////////           Some commands of  Command Prompt        ///////////
+///////////           Some commands of  Command Prompt        ///////////
+///////////           Some commands of  Command Prompt        ///////////
+///////////           Some commands of  Command Prompt        ///////////
+
+
+
+
+
+
+(A). How to change the drive( c drive or d drive ) in CMD (Command Prompt)
+
+    1.
+    To access another drive, type the drive’s letter, followed by :.    For instance, if you wanted to change the drive from C: to D:, you should type - 
+
+    type:-    d:
+
+
+
+    for change the drive from D: to C: drive you should type - 
+
+    type:-    d:
+
+
+    and then press Enter on your keyboard.
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+(B). How to change the directory in CMD (CD in Command Prompt)
+
+
+    1. ///////
+    How to go to the root of the drive, in CMD (CD) ?
+
+    The first iteration of the CD command you should know is CD\. It takes you to the top of the directory tree. 
+
+
+    type:-    cd\
+
+    and then press Enter on your keyboard.
+
+
+    ////////////////////////////////////////////////////////
+    
+
+    2. ///////
+    How to navigate to a specific folder in CMD (CD path) ?
+
+    Going back to the CD command, now you are working on the root of the C: drive. If you need to go to a specific folder from this drive, run the command CD Folder. 
+
+
+    type:-    cd windows\system32\
+
+    and then press Enter on your keyboard.
+
+
+    ////////////////////////////////////////////////////////
+    
+
+    3. //////
+    How to change the parent directory in CMD (CD..) ?
+
+    When you need to go one folder up, use the cd.. command. Let's assume that you’re inside the system32 folder and want to go back to the Windows folder. Type
+
+
+    type:-    cd..
+
+    and then press Enter on your keyboard.
+
+
+    ////////////////////////////////////////////////////////
+    
+
+    4. ////////
+    How to change directory in CMD to desktop (or other user folders) ?
+
+    (a).
+    What about changing the directory in CMD to a personal folder, like your Desktop or Documents? It’s done the same way, using the CD command, but you need to know the locations of your personal folders. In both Windows 10 and Windows 11, all user folders are found in:
+
+
+    type:-    C:\Users\[username]\
+
+    and then press Enter on your keyboard.
+
+
+    (b).
+    Similarly, if you want to navigate to another user folder in CMD, run the same command but replace Desktop with the directory you need to get to. For example, if you want to change the path to your Documents folder, run:
+
+
+    type:-   C:\Users\[your_user_name]\Documents
+
+    and then press Enter on your keyboard.
+
+
+
+
+
+
+
